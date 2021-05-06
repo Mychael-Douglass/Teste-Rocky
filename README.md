@@ -5,7 +5,7 @@
 
 Adaptável a diversos padrões de tela.
 
-<h2>Compatível com diverson Browsers</h2>
+<h2>Compatível com diversos Browsers</h2>
 
 Dentre eles Chrome, Firefox, Opera e Edge.
 
