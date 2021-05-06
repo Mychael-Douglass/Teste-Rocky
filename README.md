@@ -10,7 +10,7 @@ Adaptável a diversos padrões de tela.
 Dentre eles Chrome, Firefox, Opera e Edge.
 
 
-<h2>Technologies used in this production:</h2>
+<h2>Tecnologias utilizadas na produção do projeto:</h2>
 
 <br><h3>[HTML5]</h3> - Liguagem de marcação para gerar o conteúdo que será vizualizado na web!</br>
 <br><h3>[CSS3]</h3> - Folhas de estilo em cascata para personalização da página!</br>
