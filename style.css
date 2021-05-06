@@ -118,7 +118,7 @@ label {
     margin-bottom: 10%;
     background-color: rgb(28, 212, 233);
     color: white;
-    font-size: 20px;
+    font-size: 15pt;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,15 +199,6 @@ h2 {
     padding: 20px;
 }
 
-#container_c p {
-    position: relative;
-    text-align: center;
-    font-weight: 500;
-    font-size: 15pt;
-    color: white;
-    padding: 20px;
-}
-
 #container_b {
     background-image: url(imagensdesktop/s3\ ft2.png);
     background-position: center;
@@ -223,6 +214,15 @@ h2 {
     font-size: 17pt;
     color: yellow;
     padding: 30px;
+}
+
+#container_c p {
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15pt;
+    color: white;
+    padding: 20px;
 }
 
 #container_c {
@@ -391,13 +391,13 @@ footer {
 }
 
 .icone_facebook {
-    width: 30%;
+    width: 65px;
     align-items: center;
     margin-left: 17%;
 }
 
 .icone_linkedin {
-    width: 30%;
+    width: 65px;
     align-items: center;
 }
 
@@ -447,8 +447,9 @@ footer {
 }
 
 .icon_localization {
-    width: 45%;
-    margin-left: -30%;
+    width: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
 }
 
 .address {
@@ -535,11 +536,13 @@ textarea {
         width: 80%;
         height: 100%;
     }
+
     #container_a h3, 
     #container_b h3, 
     #container_c h3 {
         font-size: 16pt;
     }
+
     #container_a p, 
     #container_b p, 
     #container_c p {
@@ -551,6 +554,7 @@ textarea {
         width: 80%;
         height: 100%;
     }
+
     #container_d p, 
     #container_e p, 
     #container_f p  {
@@ -563,34 +567,43 @@ textarea {
         height: 70px;
         margin-left: 0px;
     }
+
     .icone_facebook, 
     .icone_linkedin {
-        width: 35%;
+        width: 60px;
         margin-top: 10px;
     }
    
     .align_container {
         margin-top: 35px;
     }
+
     .email h4 {
         padding-right: 30%;
         font-size: 12pt;
     }
+
     .phone h4 {
         padding-right: 35%;
         font-size: 12pt;
     }
+
     .align_address {
         margin-top: 30px;
     }
+
     .icon_localization {
-        width: 50%;
-        margin-left: 0%;
-    }
-    .p_address {
-        font-size: 9pt;
+        width: 20px;
         margin-left: 20px;
+        margin-right: 20px;
     }
+
+    .p_address {
+        font-size: 10pt;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+
     .description_area {
         width: 100%;
         margin-left: 15%;
@@ -614,6 +627,18 @@ textarea {
         padding: 30px;
         margin-left: 50px;
         margin-top: 30px;
+    }
+
+    .icon_localization {
+        width: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .p_address {
+        font-size: 10pt;
+        margin-left: 0px;
+        margin-right: 20px;
     }
     
 }
@@ -686,11 +711,11 @@ textarea {
         margin-left: 25px;
     }
     .icone_facebook {
-        width: 40%;
-        margin-left: 10%;
+        width: 55px;
+        margin-left: 20%;
     }
     .icone_linkedin {
-        width: 40%;
+        width: 55px;
     }
     .align_container {
         margin-top: 25px;
@@ -706,14 +731,7 @@ textarea {
     .align_address {
         margin-top: 20px;
     }
-    .icon_localization {
-        width: 50%;
-        margin-left: 80%;
-    }
-    .p_address {
-        font-size: 9pt;
-        margin-left: 20px;
-    }
+
     .description_area {
         width: 100%;
         margin-left: 15%;
@@ -778,6 +796,10 @@ textarea {
         margin-right: 70px;
     }
 
+    .footer_logo {
+        width: 170px;
+    }
+
     .icon_social {
         height: 70px;
         margin-left: 10px;
@@ -786,20 +808,21 @@ textarea {
         margin-left: 30px;
     }
     .icone_facebook {
-        width: 47%;
+        width: 50px;
         margin-left: 50%;
     }
     .icone_linkedin {
-        width: 47%;
-        margin-left: 20%;
+        width: 50px;
+        margin-left: 15%;
+    }
+
+    .email h4 {
+        padding-right: 20%;
+        font-size: 11pt;
     }
 }
 
 @media only screen and (max-width: 870px) {
-    header {
-        background-image: url(imagensmobile/s1\ mobile.png);
-    }
-    
     #home {
         width: 100%;
         height: 90%;
@@ -883,29 +906,36 @@ textarea {
     }
     .container1 {
         margin: 0 auto;
-        display: block;
-        width: 50%;
+        display: flex;
+        width: 95%;
         height: 100%;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
     }
+
     #container_a,
     #container_b,
     #container_c {
-        width: 100%;
+        width: 40%;
         height: auto;
         margin: 25px;
         padding: 10px;
     }
     
     .container2 {
-        display: block;
-        width: 40%;
+        display: flex;
+        width: 90%;
         height: 100%;
         margin-bottom: 300px;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
     }
     #container_d,
     #container_e,
     #container_f {
-        width: 100%;
+        width: 40%;
         height: auto;
         margin: 25px;
         padding: 10px;
@@ -914,6 +944,12 @@ textarea {
     .section1 {
         display: block;
     }
+
+    .footer_logo {
+        width: 250px;
+    }
+
+
     .icon_social {
         width: 90%;
         height: 100%;
@@ -921,11 +957,11 @@ textarea {
         margin-top: 30px;
     }
     .icone_facebook {
-        width: 40%;
+        width: 65px;
         margin-left: 10%;
     }
     .icone_linkedin {
-        width: 40%;
+        width: 65px;
     }
     .align_container {
         margin-top: 25px;
@@ -942,13 +978,17 @@ textarea {
         margin-top: 20px;
     }
     .icon_localization {
-        width: 50%;
-        margin-left: 0%;
-    }
-    .p_address {
-        font-size: 9pt;
+        width: 20px;
         margin-left: 20px;
+        margin-right: 0px;
     }
+
+    .p_address {
+        font-size: 11pt;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    
     .description_area {
         width: 90%;
         margin-left: 50px;
@@ -971,26 +1011,263 @@ textarea {
 }
 
 @media only screen and (max-width: 650px) {
+    header {
+        background-image: url(imagensmobile/s1\ mobile.png);
+    }
+    
     .header_content button {
         width: 50%;
     }
 
-}
+    .icon_localization {
+        width: 20px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .p_address {
+        font-size: 11pt;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+
+    .container1 {
+        margin: 0 auto;
+        display: flex;
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container_a,
+    #container_b,
+    #container_c {
+        width: 80%;
+        height: auto;
+        margin: 25px;
+        padding: 10px;
+    }
+
+    .container2 {
+        display: flex;
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 300px;
+    }
+
+    #container_d,
+    #container_e,
+    #container_f {
+        width: 70%;
+        height: auto;
+        margin: 25px;
+        padding: 10px;
+    }
+
+    .section1 {
+        display: block;
+    }
+
+    .footer_logo {
+        width: 250px;
+    }
+
+
+    .icon_social {
+        width: 90%;
+        height: 100%;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .icone_facebook {
+        width: 65px;
+        margin-left: 10%;
+    }
+    .icone_linkedin {
+        width: 65px;
+    }
+    .align_container {
+        margin-top: 25px;
+    }
+    .email h4 {
+        padding-right: 30%;
+        font-size: 11pt;
+    }
+    .phone h4 {
+        padding-right: 35%;
+        font-size: 11pt;
+    }
+    .align_address {
+        margin-top: 20px;
+    }
+    .icon_localization {
+        width: 20px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .p_address {
+        font-size: 11pt;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+
+    .description_area {
+        width: 90%;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 5%;
+        font-size: 12pt;
+    }
+    .article_form {
+        width: 100%;
+    }
+    .icones {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 50px;
+    }
+}   
+
+
 
 @media only screen and (max-width: 375px) {
     .home {
         margin-left: 5px;
     }
-    
-    .container1 {
-        width: 70%;
+
+    .header_content p {
+        font-size: 17pt;
     }
+
+    .header_content button {
+        width: 60%;
+        font-size: 16pt;
+    }
+    
+    h2 {
+        font-size: 35pt;
+    }
+
+    .p_content {
+        font-size: 17pt;
+    }
+
+    .container1 {
+        width: 87%;
+        width: auto;
+    }
+
+    #container_a h3,
+    #container_b h3,
+    #container_c h3 {
+        font-size: 22pt;
+    }
+
+    #container_a p, 
+    #container_b p,
+    #container_c p {
+    font-size: 17pt;
+    padding: 15px;
+}
+    
+    #container_a {
+        width: 100%;
+        height: 60vh;
+        background-image: url(imagensmobile/s3\ ft1.png);
+        background-position: center;
+        background-size: 150%;
+        border-radius: 40px;
+    }
+
+    #container_b {
+        width: 100%;
+        height: 60vh;
+        background-image: url(imagensmobile/s3\ ft2.png);
+        background-position: center;
+        background-size: 150%;
+        border-radius: 40px;
+    }
+
+    #container_c {
+        width: 100%;
+        height: 60vh;
+        background-image: url(imagensmobile/s3\ ft3.png);
+        background-position: center;
+        background-size: 150%;
+        border-radius: 40px;
+    }
+
+    #container_c::before {
+        background-image: url(imagensmobile/s3\ ft3.png);
+        background-size: 150%;
+    }
+
     .container2 {
-        width: 65%;
+        width: 94%;
+        margin-bottom: 50px;
+    }
+
+    #container_d p,
+    #container_e p,
+    #container_f p {
+        font-size: 17pt;
+        padding-top: 60px;
+    }
+
+    #container_d {
+        width: 100%;
+        height: 60vh;
+        background-image: url(imagensmobile/s4\ ft1.png);
+        background-position: center;
+        background-size: 150%;
+        border-radius: 40px;
+    }
+
+    #container_d::before {
+        background-image: url(imagensmobile/s4\ ft1.png);
+        background-size: 150%;
+    }
+
+    #container_e {
+        width: 100%;
+        height: 60vh;
+        background-image: url(imagensmobile/s4\ ft2.png);
+        background-position: center;
+        background-size: 150%;
+        border-radius: 40px;
+    }
+
+    #container_e::before {
+        background-image: url(imagensmobile/s4\ ft2.png);
+        background-size: 150%;
+    }
+
+    #container_f {
+        width: 100%;
+        height: 60vh;
+        background-image: url(imagensmobile/s4\ ft3.png);
+        background-position: center;
+        background-size: 150%;
+        border-radius: 40px;
+    }
+
+    #container_f::before {
+        background-image: url(imagensmobile/s4\ ft3.png);
+        background-size: 150%;
     }
 
     #container_d img, #container_e img, #container_f img  {
-        width: 25%;
+        width: 32%;
     }
 
 
