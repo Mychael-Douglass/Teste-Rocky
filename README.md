@@ -1,7 +1,7 @@
 # Teste Rocky
  Projeto de página criado para avaliação de processo seletivo.
 
-<h1>Website Responsivo</h1>
+<h2>Website Responsivo</h2>
 
 Adaptável a diversos padrões de tela.
 
