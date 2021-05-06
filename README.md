@@ -12,8 +12,8 @@ Dentre eles Chrome, Firefox, Opera e Edge.
 
 Technologies used in this production:
 
-[HTML5] - Liguagem de marcação para gerar o conteúdo que será vizualizado na web!
-[CSS3] - Folhas de estilo em cascata para personalização da página!
-[JavaScript] - Linguagem de script utilizada apenas para transição de cores no background do menu!
-[Visual Studio Code] - Ferramenta utilizada para o desenvolvimento do código!
-[Git/GitHub] - Ferramentas utilizadas para o controle de versionamente do projeto!
+<br><h3>[HTML5]</h3> - Liguagem de marcação para gerar o conteúdo que será vizualizado na web!</br>
+<br><h3>[CSS3]</h3> - Folhas de estilo em cascata para personalização da página!</br>
+<br><h3>[JavaScript]</h3> - Linguagem de script utilizada apenas para transição de cores no background do menu!</br>
+<br><h3>[Visual Studio Code]</h3> - Ferramenta utilizada para o desenvolvimento do código!</br>
+<br>[Git/GitHub] - Ferramentas utilizadas para o controle de versionamente do projeto!</br>
